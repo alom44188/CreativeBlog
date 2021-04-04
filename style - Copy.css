@@ -1,10 +1,9 @@
 *{
-    margin: 5px;
-    padding:0px;
+    margin: 0;
 }
 
 .blog{
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -32,7 +31,7 @@
 .secroom ul{
 
     margin-left: 30px;
-    margin-top: -8px;
+    padding-top: 5px;
 }
 .secroom ul li{
 
@@ -47,7 +46,7 @@
     padding: 5px 0px;
 }
 .secroom ul li a:hover{
-    border-bottom: 1px dotted white;
+    text-decoration: underline;
     
 }
 
@@ -122,6 +121,9 @@
     border-top: 3px solid;
     border-bottom: 3px solid;
     text-align: center;
+    width: 395px;
+    /* margin: 0 auto; */
+    margin-left: 333px;
 }
 
 .topnews .news img{
@@ -135,6 +137,7 @@
 }
 
 .foot{
+    display: flex;
     display: flex;
     width: 95%;
     border: 2px solid yellowgreen;
@@ -188,13 +191,4 @@
 
 .copy{
     text-align: center;
-}
-
-
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-
-
-
 }
